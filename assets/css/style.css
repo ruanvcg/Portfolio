@@ -1629,10 +1629,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .modal-avatar-box img { width: 80px; }
 
-  .button-cv {
-    width: max-content;
-    margin-left: auto;
-  }
+  
 
 
   /**
