@@ -506,8 +506,45 @@ main {
 
 .about-text p { margin-bottom: 15px; }
 
+.button-cv{
+  position: relative;
+  width: 100%;
+  background: var(--border-gradient-onyx);
+  color: var(--orange-yellow-crayola);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 20px;
+  border-radius: 14px;
+  font-size: var(--fs-6);
+  text-transform: capitalize;
+  box-shadow: var(--shadow-3);
+  z-index: 1;
+  transition: var(--transition-1);
+}
+.button-cv::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  background: var(--bg-gradient-jet);
+  border-radius: inherit;
+  z-index: -1;
+  transition: var(--transition-1);
+}
 
+.button-cv:hover { background: var(--bg-gradient-yellow-1); }
 
+.button-cv:hover::before { background: var(--bg-gradient-yellow-2); }
+
+.button-cv:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.button-cv:disabled:hover { background: var(--border-gradient-onyx); }
+
+.button-cv:disabled:hover::before { background: var(--bg-gradient-jet); }
 /**
  * #service 
  */
