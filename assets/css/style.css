@@ -157,7 +157,9 @@ html { font-family: var(--ff-poppins); }
 
 body { background: var(--smoky-black); }
 
-
+.justify{
+  text-align: justify;
+}
 
 
 
@@ -1070,7 +1072,7 @@ main {
   #BLOG
 \*-----------------------------------*/
 
-.blog-posts { margin-bottom: 10px; }
+.blog-posts { margin-bottom: 2rem; margin-top: 2rem; }
 
 .blog-posts-list {
   display: grid;
