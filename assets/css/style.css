@@ -161,7 +161,9 @@ body { background: var(--smoky-black); }
   text-align: justify;
 }
 
-
+.plugin-fb{
+  background-color: rgb(226, 226, 226);
+}
 
 /*-----------------------------------*\
   #REUSED STYLE
